@@ -1,6 +1,7 @@
 import attractions.*;
 import org.junit.Before;
 import org.junit.Test;
+import people.Visitor;
 import stalls.*;
 
 import static org.junit.Assert.assertEquals;
@@ -15,6 +16,7 @@ public class ThemeParkTest {
     CandyflossStall candyflossStall;
     IceCreamStall iceCreamStall;
     Park park;
+    Visitor visitor;
 
 
 
@@ -35,10 +37,17 @@ public class ThemeParkTest {
        themePark.addItem(park);
        themePark.addItem(candyflossStall);
        themePark.addItem(iceCreamStall);
+       visitor = new Visitor( 20, 175, 30);
     }
     @Test
     public void canAddItem(){
         assertEquals(7, themePark.getAllReviewed().size());
+    }
+    @Test
+    public void canVisit(){
+        themePark.visit(visitor, dodgem);
+        assertEquals(1, dodgem.getVisitCount());
+        assertEquals(1, visitor.getVisitedAttractions().size());
     }
 
 
