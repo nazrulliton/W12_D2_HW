@@ -20,7 +20,7 @@ public class RollerCoaster extends Attraction implements ITicketed {
 
 
     public double defaultPrice(Visitor visitor) {
-            return 16.8;
+            return 8.4;
 
     }
 

@@ -3,24 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="ac045795-6ee8-4e33-b497-41028b77310c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/stalls/CandyflossStall.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/stalls/CandyflossStall.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/stalls/IceCreamStall.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/stalls/IceCreamStall.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/stalls/Stall.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/stalls/Stall.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/stalls/TobaccoStall.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/stalls/TobaccoStall.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/attractions/Dodgems.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/attractions/Dodgems.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/attractions/RollerCoaster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/attractions/RollerCoaster.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/attractions/DodgemTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/attractions/DodgemTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/attractions/RollercoasterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/attractions/RollercoasterTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stalls/CandyflossStallTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stalls/CandyflossStallTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stalls/IceCreamStallTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stalls/IceCreamStallTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stalls/TobaccoStallTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stalls/TobaccoStallTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/attractions/Attraction.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/attractions/Dodgems.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/attractions/Park.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/attractions/Playground.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/attractions/RollerCoaster.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/behaviours/ITicketed.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/stalls/CandyflossStall.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/stalls/IceCreamStall.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/stalls/Stall.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/stalls/TobaccoStall.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/attractions/Dodgems.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/attractions/Dodgems.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/attractions/RollerCoaster.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/attractions/RollerCoaster.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/attractions/RollercoasterTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/attractions/RollercoasterTest.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -57,24 +46,40 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.RollercoasterTest.canGetPriceForTallVisitor">
-    <configuration name="IceCreamStallTest.hasRating" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.DodgemTest.canGetPriceCheckForVisitor">
+    <configuration name="DodgemTest.canGetDefaultPrice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ThemeParkStartPoint" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stalls.*" />
+          <option name="PATTERN" value="attractions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="stalls" />
-      <option name="MAIN_CLASS_NAME" value="stalls.IceCreamStallTest" />
-      <option name="METHOD_NAME" value="hasRating" />
+      <option name="PACKAGE_NAME" value="attractions" />
+      <option name="MAIN_CLASS_NAME" value="attractions.DodgemTest" />
+      <option name="METHOD_NAME" value="canGetDefaultPrice" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RollercoasterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DodgemTest.canGetPriceCheckForVisitor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ThemeParkStartPoint" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="attractions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="attractions" />
+      <option name="MAIN_CLASS_NAME" value="attractions.DodgemTest" />
+      <option name="METHOD_NAME" value="canGetPriceCheckForVisitor" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RollercoasterTest.canGetDefaultPrice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ThemeParkStartPoint" />
       <extension name="coverage">
         <pattern>
@@ -84,7 +89,24 @@
       </extension>
       <option name="PACKAGE_NAME" value="attractions" />
       <option name="MAIN_CLASS_NAME" value="attractions.RollercoasterTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="METHOD_NAME" value="canGetDefaultPrice" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RollercoasterTest.canGetPriceCheckForVisitor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ThemeParkStartPoint" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="attractions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="attractions" />
+      <option name="MAIN_CLASS_NAME" value="attractions.RollercoasterTest" />
+      <option name="METHOD_NAME" value="canGetPriceCheckForVisitor" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -105,43 +127,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RollercoasterTest.canGetPriceForVisitor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ThemeParkStartPoint" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="attractions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="attractions" />
-      <option name="MAIN_CLASS_NAME" value="attractions.RollercoasterTest" />
-      <option name="METHOD_NAME" value="canGetPriceForVisitor" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="stalls in ThemeParkStartPoint" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ThemeParkStartPoint" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="stalls.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="stalls" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DodgemTest.canGetPriceCheckForVisitor" />
+        <item itemvalue="JUnit.DodgemTest.canGetDefaultPrice" />
+        <item itemvalue="JUnit.RollercoasterTest.canGetPriceCheckForVisitor" />
+        <item itemvalue="JUnit.RollercoasterTest.canGetDefaultPrice" />
         <item itemvalue="JUnit.RollercoasterTest.canGetPriceForTallVisitor" />
-        <item itemvalue="JUnit.RollercoasterTest.canGetPriceForVisitor" />
-        <item itemvalue="JUnit.stalls in ThemeParkStartPoint" />
-        <item itemvalue="JUnit.IceCreamStallTest.hasRating" />
-        <item itemvalue="JUnit.RollercoasterTest" />
       </list>
     </recent_temporary>
   </component>
