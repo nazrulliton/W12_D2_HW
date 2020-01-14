@@ -38,7 +38,7 @@ public class ThemeParkTest {
     }
     @Test
     public void canAddItem(){
-        assertEquals(7, themePark.getItems().size());
+        assertEquals(7, themePark.getAllReviewed().size());
     }
 
 

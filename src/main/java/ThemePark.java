@@ -14,7 +14,7 @@ public class ThemePark {
         this.items.add(item);
     }
 
-    public ArrayList<IReviewed> getItems() {
+    public ArrayList<IReviewed> getAllReviewed() {
         return items;
     }
 }
