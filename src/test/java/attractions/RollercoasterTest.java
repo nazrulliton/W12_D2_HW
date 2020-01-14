@@ -46,5 +46,10 @@ public class RollercoasterTest {
         visitor = new Visitor(11, 150, 5);
         assertEquals(8.4, rollerCoaster.priceFor(visitor),0.01);
     }
+    @Test
+    public void canGetPriceForTallVisitor(){
+        visitor = new Visitor(11, 201, 5);
+        assertEquals(16.8, rollerCoaster.priceFor(visitor),0.01);
+    }
 
 }

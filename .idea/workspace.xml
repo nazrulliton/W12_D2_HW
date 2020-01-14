@@ -57,7 +57,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.stalls in ThemeParkStartPoint">
+  <component name="RunManager" selected="JUnit.RollercoasterTest.canGetPriceForTallVisitor">
     <configuration name="IceCreamStallTest.hasRating" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ThemeParkStartPoint" />
       <extension name="coverage">
@@ -89,6 +89,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RollercoasterTest.canGetPriceForTallVisitor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ThemeParkStartPoint" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="attractions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="attractions" />
+      <option name="MAIN_CLASS_NAME" value="attractions.RollercoasterTest" />
+      <option name="METHOD_NAME" value="canGetPriceForTallVisitor" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RollercoasterTest.canGetPriceForVisitor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ThemeParkStartPoint" />
       <extension name="coverage">
@@ -100,22 +116,6 @@
       <option name="PACKAGE_NAME" value="attractions" />
       <option name="MAIN_CLASS_NAME" value="attractions.RollercoasterTest" />
       <option name="METHOD_NAME" value="canGetPriceForVisitor" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RollercoasterTest.checkIsNotAllowedto" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ThemeParkStartPoint" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="attractions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="attractions" />
-      <option name="MAIN_CLASS_NAME" value="attractions.RollercoasterTest" />
-      <option name="METHOD_NAME" value="checkIsNotAllowedto" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -137,11 +137,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RollercoasterTest.canGetPriceForTallVisitor" />
+        <item itemvalue="JUnit.RollercoasterTest.canGetPriceForVisitor" />
         <item itemvalue="JUnit.stalls in ThemeParkStartPoint" />
         <item itemvalue="JUnit.IceCreamStallTest.hasRating" />
-        <item itemvalue="JUnit.RollercoasterTest.canGetPriceForVisitor" />
         <item itemvalue="JUnit.RollercoasterTest" />
-        <item itemvalue="JUnit.RollercoasterTest.checkIsNotAllowedto" />
       </list>
     </recent_temporary>
   </component>

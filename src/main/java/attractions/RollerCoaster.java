@@ -26,7 +26,7 @@ public class RollerCoaster extends Attraction implements ITicketed {
 
 
     public double priceFor(Visitor visitor) {
-        if (visitor.getHeight() <= 200)
+        if (visitor.getHeight() > 200)
        {
            return 16.8;}
         else  {
