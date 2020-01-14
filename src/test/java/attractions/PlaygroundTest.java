@@ -33,6 +33,12 @@ public class PlaygroundTest {
 
     @Test
     public void checkIsAllowedTo(){
-a
+        visitor = new Visitor(14, 160.0,10.0);
+        assertEquals(true,playground.isAllowedTo(visitor));
+    }
+    @Test
+    public void checkIsNotAllowedTo(){
+        visitor = new Visitor(19, 160.0,10.0);
+        assertEquals(false,playground.isAllowedTo(visitor));
     }
 }
