@@ -46,7 +46,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ThemeParkTest.canAddItem">
+  <component name="RunManager" selected="JUnit.VisitorTest.vistedAttractiosStartsEmpty">
     <configuration name="ThemeParkTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ThemeParkStartPoint" />
       <option name="PACKAGE_NAME" value="" />
@@ -76,16 +76,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThemeParkTest.canAddItems" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ThemeParkStartPoint" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ThemeParkTest" />
-      <option name="METHOD_NAME" value="canAddItems" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ThemeParkTest.canCountNumOfItems" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ThemeParkStartPoint" />
       <option name="PACKAGE_NAME" value="" />
@@ -96,13 +86,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="VisitorTest.vistedAttractiosStartsEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ThemeParkStartPoint" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="people.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="people" />
+      <option name="MAIN_CLASS_NAME" value="people.VisitorTest" />
+      <option name="METHOD_NAME" value="vistedAttractiosStartsEmpty" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.VisitorTest.vistedAttractiosStartsEmpty" />
         <item itemvalue="JUnit.ThemeParkTest.canAddItem" />
         <item itemvalue="JUnit.ThemeParkTest.canCountNumOfItems" />
         <item itemvalue="JUnit.ThemeParkTest" />
         <item itemvalue="JUnit.ThemeParkTest.beginsAtZero" />
-        <item itemvalue="JUnit.ThemeParkTest.canAddItems" />
       </list>
     </recent_temporary>
   </component>
