@@ -22,7 +22,7 @@ public class ThemePark {
         return items;
     }
     public void visit(Visitor visitor, Attraction attraction){
-        attraction.getVisitCount() += 1;
+        attraction.incrementVisitCount(1);
         visitor.addItem(attraction);
     }
 }

@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="ac045795-6ee8-4e33-b497-41028b77310c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/src/main/java/ThemePark.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ThemePark.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/attractions/Attraction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/attractions/Attraction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/people/Visitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/people/Visitor.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />

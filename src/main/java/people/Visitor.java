@@ -37,4 +37,5 @@ public class Visitor {
     public void addItem(Attraction attraction){
         this.visitedAttractions.add(attraction);
     }
+
 }
