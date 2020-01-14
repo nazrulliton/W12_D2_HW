@@ -1,6 +1,7 @@
 package people;
 
 import attractions.Attraction;
+import behaviours.IReviewed;
 
 import java.util.ArrayList;
 
@@ -32,5 +33,8 @@ public class Visitor {
 
     public ArrayList<Attraction> getVisitedAttractions() {
         return visitedAttractions;
+    }
+    public void addItem(Attraction attraction){
+        this.visitedAttractions.add(attraction);
     }
 }
