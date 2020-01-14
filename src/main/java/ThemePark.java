@@ -5,11 +5,16 @@ import java.util.ArrayList;
 public class ThemePark {
     private ArrayList<IReviewed> items;
 
+
     public ThemePark(){
-        this.items = new ArrayList<IReviewed>();
+        this.items = new ArrayList<>();
+
     }
-    public int itemCount(){
-     return items.size();
+    public void addItem(IReviewed item){
+        this.items.add(item);
     }
 
+    public ArrayList<IReviewed> getItems() {
+        return items;
+    }
 }

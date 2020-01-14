@@ -4,12 +4,21 @@
     <list default="true" id="ac045795-6ee8-4e33-b497-41028b77310c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ThemePark.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ThemePark.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ThemeParkTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ThemeParkTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ThemePark.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ThemePark.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -40,82 +49,51 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.DodgemTest.canGetPriceCheckForVisitor">
-    <configuration name="DodgemTest.canGetDefaultPrice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ThemeParkTest.canAddItem">
+    <configuration name="ThemeParkTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ThemeParkStartPoint" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="attractions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="attractions" />
-      <option name="MAIN_CLASS_NAME" value="attractions.DodgemTest" />
-      <option name="METHOD_NAME" value="canGetDefaultPrice" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ThemeParkTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThemeParkTest.beginsAtZero" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ThemeParkStartPoint" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ThemeParkTest" />
+      <option name="METHOD_NAME" value="beginsAtZero" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DodgemTest.canGetPriceCheckForVisitor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ThemeParkTest.canAddItem" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ThemeParkStartPoint" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="attractions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="attractions" />
-      <option name="MAIN_CLASS_NAME" value="attractions.DodgemTest" />
-      <option name="METHOD_NAME" value="canGetPriceCheckForVisitor" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ThemeParkTest" />
+      <option name="METHOD_NAME" value="canAddItem" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RollercoasterTest.canGetDefaultPrice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ThemeParkTest.canAddItems" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ThemeParkStartPoint" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="attractions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="attractions" />
-      <option name="MAIN_CLASS_NAME" value="attractions.RollercoasterTest" />
-      <option name="METHOD_NAME" value="canGetDefaultPrice" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ThemeParkTest" />
+      <option name="METHOD_NAME" value="canAddItems" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RollercoasterTest.canGetPriceCheckForVisitor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ThemeParkTest.canCountNumOfItems" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ThemeParkStartPoint" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="attractions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="attractions" />
-      <option name="MAIN_CLASS_NAME" value="attractions.RollercoasterTest" />
-      <option name="METHOD_NAME" value="canGetPriceCheckForVisitor" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RollercoasterTest.canGetPriceForTallVisitor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ThemeParkStartPoint" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="attractions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="attractions" />
-      <option name="MAIN_CLASS_NAME" value="attractions.RollercoasterTest" />
-      <option name="METHOD_NAME" value="canGetPriceForTallVisitor" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ThemeParkTest" />
+      <option name="METHOD_NAME" value="canCountNumOfItems" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -123,11 +101,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.DodgemTest.canGetPriceCheckForVisitor" />
-        <item itemvalue="JUnit.DodgemTest.canGetDefaultPrice" />
-        <item itemvalue="JUnit.RollercoasterTest.canGetPriceCheckForVisitor" />
-        <item itemvalue="JUnit.RollercoasterTest.canGetDefaultPrice" />
-        <item itemvalue="JUnit.RollercoasterTest.canGetPriceForTallVisitor" />
+        <item itemvalue="JUnit.ThemeParkTest.canAddItem" />
+        <item itemvalue="JUnit.ThemeParkTest.canCountNumOfItems" />
+        <item itemvalue="JUnit.ThemeParkTest" />
+        <item itemvalue="JUnit.ThemeParkTest.beginsAtZero" />
+        <item itemvalue="JUnit.ThemeParkTest.canAddItems" />
       </list>
     </recent_temporary>
   </component>
@@ -156,6 +134,17 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/ThemeParkTest.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="masterDetails">
     <states>
