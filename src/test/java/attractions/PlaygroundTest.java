@@ -33,6 +33,6 @@ public class PlaygroundTest {
 
     @Test
     public void checkIsAllowedTo(){
-
+a
     }
 }
